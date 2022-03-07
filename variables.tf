@@ -1,9 +1,9 @@
 variable parameters {
   type = list(object({
     name = string
-    value = string #String, StringList and SecureString
+    value = string
     description = string
-    type = bool
+    type = string #String, StringList and SecureString
     overwrite = bool
   }))
   default = []
